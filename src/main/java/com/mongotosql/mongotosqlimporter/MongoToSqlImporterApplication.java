@@ -9,5 +9,4 @@ public class MongoToSqlImporterApplication {
     public static void main(String[] args) {
         SpringApplication.run(MongoToSqlImporterApplication.class, args);
     }
-
 }
