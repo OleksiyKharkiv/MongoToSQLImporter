@@ -1,6 +1,8 @@
 package com.mongotosql.mongotosqlimporter.model;
 
-@MongoData
+import lombok.Data;
+
+@Data
 public class MongoData {
     private String id;
     private String name;

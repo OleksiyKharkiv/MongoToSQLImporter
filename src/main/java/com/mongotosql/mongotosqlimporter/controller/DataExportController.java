@@ -5,7 +5,7 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.web.bind.annotation.RestController;
 
-import mongoToSQLImporter.service.DataExportService;
+import com.mongotosql.mongotosqlimporter.service.DataExportService;
 
 @RestController
 public class DataExportController {
